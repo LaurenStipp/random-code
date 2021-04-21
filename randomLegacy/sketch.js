@@ -6,28 +6,28 @@ let simsbold;
 let simsboldSC;
 
 function setup() {
-  createCanvas(1792,828);
+  createCanvas(300,600);
+  textAlign(CENTER);
 
   simsbold = loadFont("assets/thesimssansbold.otf");
   simsboldSC = loadFont("assets/thesimssansboldsc.otf");
 }
 
 function draw() {
-  background(66,118,183);
-  //wth
-  // textFont(simsbold);
-  // fill(166,227,41);
+  background('blue');
+  textFont(simsbold);
+  fill(166,227,41);
   // clear();
-  // switch (state) {
-  //   case 0:
-  //     text("Tap the screen to start randomization", width/2,height/2);
-  //     break;
-  //
-  //   case 1:
-  //     text("")
-  //     break;
-  //
-  // }
+  switch (state) {
+    case 0:
+      text("Tap the screen to start randomization", width/2,height/2);
+      break;
+
+    case 1:
+      text("what the hell");
+      break;
+
+  }
 }
 
 // function touchStarted() {
