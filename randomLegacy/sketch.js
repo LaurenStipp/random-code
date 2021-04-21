@@ -14,6 +14,7 @@ function setup() {
 
 function draw() {
   background(66,118,183);
+  //wth
   // textFont(simsbold);
   // fill(166,227,41);
   // clear();
