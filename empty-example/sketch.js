@@ -14,21 +14,21 @@ function setup() {
 
 function draw() {
   background(66,118,183);
-  textFont(simsbold);
-  fill(166,227,41);
-  clear();
-  switch (state) {
-    case 0:
-      text("Tap the screen to start randomization", width/2,height/2);
-      break;
-
-    case 1:
-      text("")
-      break;
-
-  }
+  // textFont(simsbold);
+  // fill(166,227,41);
+  // clear();
+  // switch (state) {
+  //   case 0:
+  //     text("Tap the screen to start randomization", width/2,height/2);
+  //     break;
+  //
+  //   case 1:
+  //     text("")
+  //     break;
+  //
+  // }
 }
 
-function touchStarted() {
-  getAudioContext().resume();
-}
+// function touchStarted() {
+//   getAudioContext().resume();
+// }
