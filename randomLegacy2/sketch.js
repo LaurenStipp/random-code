@@ -10,62 +10,42 @@ let state = 0;
 // w = ;
 // h = ;
 
+//roundness of the rect
+let r = 55;
+//x location
+let x = 200;
+//width
+let w = 300;
+//height
+let h = 50;
 
-// //marital status
-// let mx = 200;
-// let my = 190;
-// let mw = 300;
-// let mh = 50;
-// let mr = 55;
-//
-// //Number of Children
-// let nx = 200;
-// let ny = 260;
-// let nw = 300;
-// let nh = 50;
-// let nr = 55;
-//
-// //Primary Career
-// let px = 200;
-// let py = 330;
-// let pw = 300;
-// let ph = 50;
-// let pr = 55;
-//
-// //Secondary Career;
-// let sx = 200;
-// let sy = 400;
-// let sw = 300;
-// let sh = 50;
-// let sr = 55;
-//
-// //Generation Goals
-// let gx = 200;
-// let gy = 470;
-// let gw = 300;
-// let gh = 50;
-// let gr = 55;
-//
-// //Miscellaneous Fun
-// let fx = 200;
-// let fy = 540;
-// let fw = 300;
-// let fh = 50;
-// let fr = 55;
-//
-// //random traits
-// let rx = 200;
-// let ry = 610;
-// let rw = 300;
-// let rh = 50;
-// let rr = 55;
-//
-// //credits
-// let cx = 200;
-// let cy = 750;
-// let cw = 150;
-// let ch = 50;
-// let cr = 55;
+//marital status
+let my = 190;
+
+//Number of Children
+let ny = 260;
+
+
+//Primary Career
+let py = 330;
+
+
+//Secondary Career;
+let sy = 400;
+
+//Generation Goals
+let gy = 470;
+
+//Miscellaneous Fun
+let fy = 540;
+
+//random traits
+let ry = 610;
+
+//credits
+let cy = 750;
+let cw = 150;
+let ch = 50;
 
 //fonts
 let simsbold;
@@ -103,7 +83,8 @@ function draw() {
 
       //marital status
       fill('white');
-      rect(width/2, height/2-210,300,50,55);
+      // rect(width/2, height/2-210,300,50,55);
+      rect(x,my,w,h,r);
       // push();
       // fill(33,185,107);
       // textSize(30);
@@ -113,7 +94,8 @@ function draw() {
 
       //Number of Children
       fill('white');
-      rect(width/2, height/2-140,300,50,55);
+      // rect(width/2, height/2-140,300,50,55);
+      rect(x,ny,w,h,r);
       // push();
       // fill(33,185,107);
       // textSize(30);
@@ -123,7 +105,8 @@ function draw() {
 
       //Primary Career
       fill('white');
-      rect(width/2, height/2-70,300,50,55);
+      // rect(width/2, height/2-70,300,50,55);
+      rect(x,py,w,h,r);
       // push();
       // fill(33,185,107);
       // textSize(30);
@@ -133,7 +116,8 @@ function draw() {
 
       //Secondary Career
       fill('white');
-      rect(width/2, height/2,300,50,55);
+      // rect(width/2, height/2,300,50,55);
+      rect(x,sy,w,h,r);
       // push();
       // fill(33,185,107);
       // textSize(30);
@@ -143,7 +127,8 @@ function draw() {
 
       //Generation Goals
       fill('white');
-      rect(width/2, height/2+70,300,50,55);
+      // rect(width/2, height/2+70,300,50,55);
+      rect(x,gy,w,h,r);
       // push();
       // fill(33,185,107);
       // textSize(30);
@@ -153,7 +138,8 @@ function draw() {
 
       //Miscellaneous Fun
       fill('white');
-      rect(width/2, height/2+140,300,50,55);
+      // rect(width/2, height/2+140,300,50,55);
+      rect(x,fy,w,h,r);
       // push();
       // fill(33,185,107);
       // textSize(30);
@@ -164,7 +150,8 @@ function draw() {
 
       //random traits
       fill('white');
-      rect(width/2, height/2+210,300,50,55);
+      // rect(width/2, height/2+210,300,50,55);
+      rect(x,ry,w,h,r);
       // push();
       // fill(33,185,107);
       // textSize(30);
@@ -174,9 +161,9 @@ function draw() {
 
       //credits
       // fill('white');
-      // if(credHov(cx,cy,cw,ch)) {
+      // if(credHov(x,cy,cw,ch)) {
       //   fill(33,185,107)
-      //   rect(cx,cy,cw,ch,cr);
+      //   rect(x,cy,cw,ch,r);
       //   push();
       //   fill('white');
       //   textSize(30);
@@ -185,7 +172,7 @@ function draw() {
       //   pop();
       // } else {
       //   fill('white');
-      //   rect(cx,cy,cw,ch,cr);
+      //   rect(x,cy,cw,ch,r);
       //   push();
       //   fill(33,185,107);
       //   textSize(30);
@@ -193,14 +180,14 @@ function draw() {
       //   text("Credits",width/2, height/2+360);
       //   pop();
       // }
-      // fill('white');
-      //   rect(cx,cy,cw,ch,cr);
-      //   push();
-      //   fill(33,185,107);
-      //   textSize(30);
-      //   textFont(simsbold);
-      //   text("Credits",width/2, height/2+360);
-      //   pop();
+      fill('white');
+        rect(x,cy,cw,ch,r);
+        push();
+        fill(33,185,107);
+        textSize(30);
+        textFont(simsbold);
+        text("Credits",width/2, height/2+360);
+        pop();
       break;
 
       case 1:
@@ -217,40 +204,40 @@ function draw() {
 
   }
 }
-
-//marital status fate
-function maritalStat() {
-  let num1 = ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]);
-  let mStatus = random(num1);
-  console.log(mStatus);
-}
-
-function credHov(x,y,w,h) {
-  if (mouseX > x && mouseX < x+w+.1 && mouseY > y && mouseY < y+h-25) {
-  return true;
-} else {
-  return false;
-}
-}
-
-// function mouseReleased(cx,cy,cw,ch) {
 //
-//   //credits
-//   if ((mouseX > cx && mouseX < cx+cw && mouseY > cy && mouseY < cy+ch)) {
-//     // state = 2;
-//     // state=state + 1;
-//     // if (state > 2){
-//     //   state = 0;
-//     // }
-//   }
+// //marital status fate
+// function maritalStat() {
+//   let num1 = ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]);
+//   let mStatus = random(num1);
+//   console.log(mStatus);
+// }
+//
+// function credHov(x,y,w,h) {
+//   if (mouseX > x && mouseX < x+w+.1 && mouseY > y && mouseY < y+h-25) {
+//   return true;
+// } else {
+//   return false;
+// }
 // }
 
+function mouseReleased(x,cy,cw,ch) {
 
-
-
-
-
-//IGNORE
-function touchStarted() {
-  getAudioContext().resume();
+  //credits
+  if ((mouseX > x && mouseX < x+cw && mouseY > cy && mouseY < cy+ch)) {
+    state = 2;
+    // state=state + 1;
+    // if (state > 2){
+    //   state = 0;
+    // }
+  }
 }
+
+
+
+
+
+
+// //IGNORE
+// function touchStarted() {
+//   getAudioContext().resume();
+// }

@@ -1,0 +1,22 @@
+Freelance
+  1. Painter
+  2. Author
+  3. Musician
+  4. Crafter
+  5. Paranormal Investigator
+  6. Photographer
+  7. Comedian
+  8. Programmer
+
+9. Gardener
+
+10. Fisherman
+11. Treasure Hunter
+12. Space Explorer
+13. Professional gamer
+14. Cybercriminal
+15. Professional Host/Hostess
+16. Remedy Brewer
+17. Retail Owner
+18. DJ
+19. Resauranteur

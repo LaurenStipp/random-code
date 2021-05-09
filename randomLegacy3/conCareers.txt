@@ -1,0 +1,70 @@
+1.Actor
+Astronaut
+  2. Space Ranger
+  3. Interstellar Smuggler
+Athlete
+  4. Professional Athlete
+  5. Bodybuilder
+Business
+  6. Management
+  7. Investor
+Civil Designer
+  8. Civic Planner
+  9. Green Technician
+Conservationist
+  10. Environmental Manager
+  11. Marine Biologist
+Criminal
+  12. Boss
+  13. Oracle
+Critic
+  14. Arts
+  15. Food
+Culinary
+  16. Chef
+  17. Mixologist
+18. Detective
+19. Doctor
+Education
+  20. Administrator
+  21. Professor
+Engineer
+  22. Computer Engineer
+  23. Mechanical Engineer
+Entertainer
+  24. Musician
+  25. Comedian
+Gardener
+  26. Botanist
+  27. Floral Designer
+Law
+  28. Judge
+  29. Private Attorney
+Military
+  30. Covert Operator
+  31. Officer
+Painter
+  32. Master of the Real
+  33. Master of the Arts
+Politician
+  34. Politician
+  35. Charity Organizer
+Salaryperson
+  36. Expert
+  37. Supervisor
+38. Scientist
+Secret Agent
+  39. Diamond Agent
+  40. Villain
+Social Media
+  41. Internet Personality
+  42. Public Relations
+Style Influencer
+  43. Trendsetter
+  44. Stylist
+Tech Guru
+  45. eSport Gamer
+  46. Start-up Entrepreneur
+Writer
+  47. Author
+  48. Journalist

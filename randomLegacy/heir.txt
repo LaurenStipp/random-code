@@ -1,0 +1,31 @@
+1.Gender Law:
+  1. Matriarchy - must be female unless no females then boys can be eligible
+  2. Strict Matriarchy - must be female
+  3. Patriarchy - must be male unless no females
+  4. Strict Patriarchy - must be male
+  5. Equality - either gender
+  6. Strict Equality - only children of the opposite gender to the founder are eligible
+
+2.Bloodline Law:
+  1. Strict Traditional - naturally born
+  2. Traditional - naturally born children, adopted children may only be named if no naturally born kid exists
+  3. Modern - naturally and adopted are eligible
+  4. Foster - only adopted unless there are none
+  5. Strict Foster - only adopted
+
+3.Heir Law:
+  1. First Born
+  2. Last Born
+  3. Living Will - child with the highest friendly relationship score with previous heir
+  4. Merit - child with the most fully completed aspirations; tie - then the child with the highest level in a single skill among those tied
+  5. Strength - first born but an eligible sibling beats them in a fight
+  6. Random - randomly selected
+  7. Exemplar - if child has the same trait as previous heir then will become heir
+  8. Magical Bloodline - child with the strongest magical bloodline; defaults to first born if no magic until magic is introduced to family
+  9. Magical Strength - magical duel
+
+4. Species Law:
+  1. Xenoarchy - heirs must alternate between human and alien
+  2. Xenophobic - heirs must be the same species as previous heir
+  3. Brood - natural born
+  4. Tolerant - species does not matter
