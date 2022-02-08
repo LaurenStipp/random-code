@@ -1,0 +1,25 @@
+A. MARITAL Status
+  1. Single
+    - no romantic partner in the house
+  2. Couple
+  3. Mixed Single
+    - mixutre of biological and adopted children. reroll number of children if rolled 1
+  4. Mixed Couple
+  5. Second Chance
+    - two partners, must have 1 child with first partner
+  6. Single with Help
+    - non-romantic sim must live in the house
+  7. Mixed Single with Help
+  8. Couple with Help
+  9. Mixed Couple with Help
+  10. Single with Two Help
+  11. Mixed Single with Two Help
+  12. Full House
+     - must have 4 sims
+
+B. NUMBER OF KIDS
+  1.
+  2.
+  3.
+  4.
+  5.

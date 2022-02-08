@@ -1,0 +1,54 @@
+Active - conflicts with Lazy
+Adventurous - conflicts with Lazy
+Ambitious - conflicts with Lazy & Freegan
+Art Lover
+Bookworm
+Bro
+Cat Lover
+Cheerful - conflicts with Gloomy & Hot-headed
+Child of the Islands
+Child of the Ocean
+Childish
+Clumsy - conflicts with Maker
+Creative
+Dance Machine
+Dog Lover
+Erratic
+Evil - conflicts with Childish & Good
+Family-oriented - conflicts with Hates children & Noncommittal
+Foodie - conflicts with Freegan & Glutton
+Freegan
+Geek
+Genius
+Gloomy
+Glutton
+Good
+Goofball - conflicts with Snob
+Green Fiend
+Hates Children
+Hot-Headed
+Insider - conflicts with Loner
+Jealous
+Kleptomaniac - conflicts with Good
+Lazy
+Loner
+Loves Outdoors - conflicts with Squeamish
+Maker
+Materialistic - conflicts with Freegan
+Mean
+Music Lover
+Neat
+Noncommittal - conflicts with Family-oriented
+Outgoing
+Paranoid - conflicts with Outgoing
+Perfectionist
+Proper
+Recycle Disciple
+Romantic - conflicts with Unflirty
+Self-Absorbed
+Self-Assured
+Slob
+Snob
+Squeamish
+Unflirty - conflicts with Romantic
+Vegetarian

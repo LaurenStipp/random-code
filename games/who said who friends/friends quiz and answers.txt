@@ -1,0 +1,49 @@
+Who said what?
+
+"Is it wrong that I was totally aroused by that"
+aroused.wav
+Chandler
+
+"I think you've gone over to the bad place"
+badplace.wav
+Chandler
+
+"Bite me"
+bit_me.wav
+Monica
+
+"Ok, see now, what I just heard, blah blah blah blah blah blah blah blah blah blah."
+blahblah.wav
+Rachel
+
+"It's just like a bloodbath in here today!"
+blodbath.wav
+Rachel
+
+"Pee into the wind!"
+pee_wind.wav
+Joey
+
+"Noooo!"
+noo.wav
+Monica
+
+"Hey, how you doin'..."
+howdoing.wav
+Joey
+
+"Ok, this is the most romantic disease I've ever had."
+disease.wav
+Phoebe
+
+"It's like a dirty math problem."
+dirtymath.wav
+Phoebe
+
+"Dude, we are so gonna party!"
+so_party.wav
+Ross
+
+"I said share not scare!"
+notscare.wave
+Ross
